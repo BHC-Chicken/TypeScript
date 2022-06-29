@@ -34,3 +34,9 @@ const obj = {
 };
 
 obj[sym]
+
+// Undefined & null
+// let MyName: string = null; // strictNullChecks: ture 일 경우 불가
+let v: void = undefined;
+let union: string | null = null; // string 과 null 둘 다 가능
+union = "Mark";
